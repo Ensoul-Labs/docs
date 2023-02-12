@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Q&A
 
-### Ensoul 部署在哪条链上
+### Ensoul 部署在哪条链上?
 
 目前部署在 Polygon 上，工厂合约地址为 [0x5e13cf86996c2646640a96c49fb752658c7647d7](https://polygonscan.com/address/0x5e13cf86996c2646640a96c49fb752658c7647d7)
 
