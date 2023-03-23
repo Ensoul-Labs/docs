@@ -339,6 +339,7 @@ allowBatch(
 ```tsx
 burn(
     tokenId: BigNumberish, // 要销毁的 tokenId
+    amount: BigNumberish, // 要销毁的 SBT 的数量，因为一个地址可拥有多个 SBT，默认可以为 1 
     config?: PayableOverrides, // PayableOverrides 重写
     callback?: Function // 回调
   ): Promise<void>;
@@ -349,6 +350,7 @@ burn(
 ```tsx
 burnBatch(
     tokenIds: BigNumberish[], // 要销毁的 tokenId 列表
+    amounts: BigNumberish[], // 对应 tokenIds 要销毁的 SBT 的数量
     config?: PayableOverrides, // PayableOverrides 重写
     callback?: Function // 回调
   ): Promise<void>;
